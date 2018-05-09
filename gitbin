@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cmd=`git rev-parse --show-toplevel`/bin/$1
 if [ -x $cmd ]; then
